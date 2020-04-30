@@ -1,0 +1,111 @@
+/*
+Cree par Abou Dosso
+
+
+*/
+
+
+body {
+    align-content: center;
+    padding-left: 1rem;
+   width: 100%;  
+   background-color:grey;   
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: lightskyblue;
+  }
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color:darkblue;
+}
+ul{
+    list-style-type: none;
+}
+@font-face {
+    font-family: eternate;
+    src: url(../font/Eternate.otf);
+}
+
+h1 {
+    font-family: eternate;
+    font-size: 2.25rem;
+ }
+ h2 {
+    font-family: 'Sofia';
+    font-size: 1.375rem;
+    color: lightcoral;
+    text-align: center;
+}
+/*
+h1 {
+    font-size: 2.25rem;
+}
+*/
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 0.875rem;
+    text-align: justify;
+}
+/*
+img{
+    border-radius: 5%;
+    width: 18.75;
+ 
+}
+img:hover{
+ 
+    box-shadow:  10px 10px;
+}
+*/
+tr:nth-child(even) 
+{
+    background-color: #0cbe42;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #content{
+    margin: auto;
+    width: 56.25rem;
+    background: url("../img/background.png") ;
+  }
+
+  #etudes {
+    background-color:yellow ; 
+}
+
+#sports {
+    background-color:aqua;  
+}
+
+#loisirs {
+    background-color:blue;   
+}
+
+#reves {
+    background-color:green;   
+}
+.belleImage{
+    border: 1px solid #ddd;
+     border-radius: 4px;
+}
+.belleImage:hover{
+ 
+    box-shadow:  0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
