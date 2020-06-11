@@ -1,99 +1,107 @@
+<!-- 
+    index.html
+    Aboudramane Dosso
+    Derniere modification : 2020-06-08
+    -->
 <!DOCTYPE html>
-<html>
+<html lang="fr-ca">
 <head>
-    <meta charset="utf-8">
-    <title> Présentation</title>
-    <link rel="stylesheet" href="CSS/styleClasses.css">
-    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Course 09 and 10</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <!-- VOTRE CSS ICI APRES -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div id="content">
+   
 
-  
-   <b id="top">Bonjour , je me presente ...</b> 
-    <br>
-    <br>
-    <!--https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile-->
-    <img class="belleImage" src="img/me.jpg" alt="Ceci est cense etre ma photo">
-    <br>
-    <br>
-    <p >Abou Dosso</p>
-    <h1><b>Mes principales carateristiques sont :</b></h1>
-      <ul>
-          <li>
-            <a href="#etudes"> <h1> Mes etudes ... </h1></a>
-          </li>
-          <li>
-            <a href="#sports"><h1>Sportif à ses heures ...</h1></a> 
-          </li>
-          <li>
-            <a href="#loisirs"><h1>Mes loisirs preferes sont ...</h1></a> 
-          </li>
-          <li>
-            <a href="#reves"><h1>Mon plus grand rêve est ...</h1></a>
-          </li>
-      </ul>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Nba Final 2019
+    </button>
 
+ <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#video">
+    Open the video
+</button>
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Nba Final</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="jumbotron">
+                        <h1 class="display-4">Final Nba 2019!</h1>
+                        <p class="lead">2019 NBA Finals: Raptors vs. Warriors.</p>
+                        <img src="img/final.jpg" class="img-fluid" alt="">
+                        <hr class="my-4">
+                        <p>Who will win this epic battle on june 05 , 2019 ?.</p>
+                        <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more...</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <section id="etudes">
-    <h2 id="etudes">ÉTUDES</h2>
-     <ul>Mes études consistent en ...
-           <li>Cégep de Trois-Rivières (Design et integration web) </li>
-           <li>Universite de poitiers ( Maitrise en securite des SI)</li>
-           <li>Universite Laval (Bac en informatique)</li>
-        </ul> 
-       <a href="#top" >Retour au début</a>
-    </section>
-    <br>
-    <section id="sports">
-        <h2 id="sports">SPORT</h2>
-        <p>Je pratique les sports de ...</p>
-        <table>
-            <tr>
-                <th>Nom du sport</th>
-                <th>Position</th>
-                <th>Expérience</th>
-            </tr>
-            <tr>
-                <td>Baseball</td>
-                <td>Lanceur</td>
-                <td>2 ans</td>
-            </tr>
-            <tr>
-                <td>BasketBall</td>
-                <td>Power forward</td>
-                <td>6 mois</td>
-            </tr>
-            <tr>
-                <td>Natation</td>
-                <td>Nageur lol</td>
-                <td>90 ans</td>
-            </tr>     
-          </table>
-        <a href="#top" >Retour au début</a>
-      </section>
- <br>
- <section id="loisirs">
-    <h2 id="loisirs">LOISIRS</h2>
-    <ol>Mes loisirs preferes sont :
-        <li>Jouer au soccer</li>
-        <li>Voyager</li>
-        <li>Jeux videos</li>
-      </ol> 
-      <img class="belleImage" src="img/ps4.jpg" alt="Ceci est cense etre une photo de ps4">
-    <a href="#top" >Retour au début</a>
-  </section>
-<br>
-<section id="reves">
-  <h2 id="reves">REVES</h2>
-  <ul>Mes reves sont ...
-      <li>Allez dans l espace un jour </li>
-      <li>Supprimer la faim dans le monde</li>
-      
-  </ul> 
-  <a href="#top" >Retour au début</a>
-</section>
-<br>
+<div class="modal" tabindex="-1" role="dialog" id="video">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Video Testing</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="jumbotron">
+                    <h1 class="display-4">This is a test</h1>
+                    <p class="lead">You must see a video Inside a Jumbotron.</p>
+                    <header>
+                        <div class="overlay">
+                
+                        </div>
+                        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                            <source src="vid/video.mp4"
+                            type="video/mp4">
+                        </video>
+                        <div class="container h-100" >
+                            <div class="row h-100 text-center align-items-center" >
+                                <div class="col-12 text-white" >
+                                    <h1 class="display-3">Video Header</h1>
+                                    <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                
+                    <hr class="my-4">
+                   
+                    <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
 </body>
 </html>
